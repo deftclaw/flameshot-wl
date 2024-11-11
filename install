@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+
+mkdir build
+pushd build
+  cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr/local -DUSE_WAYLAND_GRIM=ON ../
+  make -j9
+popd
+
+sudo cp build/src/flameshot /usr/bin/
