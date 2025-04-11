@@ -1,4 +1,6 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
+
+doas=$(eval "which doas" || eval "which sudo")
 
 mkdir build
 pushd build
@@ -6,4 +8,4 @@ pushd build
   make -j9
 popd
 
-sudo cp build/src/flameshot /usr/bin/
+$doas cp build/src/flameshot /usr/bin/
