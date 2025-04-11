@@ -38,16 +38,10 @@
       <img src="https://img.shields.io/github/release/flameshot-org/flameshot.svg?label=docs" alt="Docs" />
     </a>
     <br>
-    <a href="https://snapcraft.io/flameshot">
-      <img alt="Get it from the Snap Store" src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" />
-    </a>
-    <a href="https://flathub.org/apps/details/org.flameshot.Flameshot">
-      <img height="60" alt="Download on Flathub" src="https://flathub.org/assets/badges/flathub-badge-en.svg"/>
-    </a>
   </p>
 </div>
 
-
+> __Note:__  When scaling is wierd, play with `grim -s #`, then move `grim` off of the path and create `bash` stub with `/path/to/grim -s # $@` (executable on path)  
 
 ## Preview
 
