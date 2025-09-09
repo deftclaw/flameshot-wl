@@ -47,7 +47,7 @@
   </p>
 </div>
 
-
+ __Note:__  When scaling is wierd, play with `grim -s #`, then move `grim` off of the path and create `bash` stub with `/path/to/grim -s # $@` (executable on path)  
 
 ## Preview
 
